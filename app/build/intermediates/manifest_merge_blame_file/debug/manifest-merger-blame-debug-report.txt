@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.luxand.livenessrecognition"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:6:5-83
+12        android:name="android.hardware.camera"
+12-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:6:19-57
+13        android:required="true" />
+13-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:6:58-81
+14    <uses-feature
+14-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:7:5-95
+15        android:name="android.hardware.camera.autofocus"
+15-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:7:19-67
+16        android:required="false" />
+16-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:7:68-92
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:8:5-64
+18-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:8:22-62
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:9:5-66
+19-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:9:22-64
+20    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+21
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:12:5-80
+22-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:12:22-77
+23
+24    <application
+24-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:15:5-34:19
+25        android:allowBackup="true"
+25-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:16:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.8.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\bf4c7cfc17b5084c37846d28fe1234bc\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@drawable/ic_launcher"
+28-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:17:9-45
+29        android:label="@string/app_name"
+29-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:18:9-41
+30        android:supportsRtl="true"
+30-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:19:9-35
+31        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+31-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:21:9-65
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:20:9-44
+33
+34        <!-- android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" > -->
+35        <activity
+35-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:24:9-33:20
+36            android:name="com.luxand.livenessrecognition.MainActivity"
+36-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:24:19-77
+37            android:exported="true"
+37-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:26:13-36
+38            android:screenOrientation="portrait" >
+38-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:25:13-49
+39            <intent-filter>
+39-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:28:13-32:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:29:17-69
+40-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:29:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:31:17-77
+42-->C:\Users\MichaelAdeneye\Desktop\ActiveLiveness\app\src\main\AndroidManifest.xml:31:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\3b321b1eff0c74d83519e0c6aa3690f3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\3b321b1eff0c74d83519e0c6aa3690f3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+48            android:authorities="com.luxand.livenessrecognition.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\3b321b1eff0c74d83519e0c6aa3690f3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\3b321b1eff0c74d83519e0c6aa3690f3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\3b321b1eff0c74d83519e0c6aa3690f3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\3b321b1eff0c74d83519e0c6aa3690f3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\3b321b1eff0c74d83519e0c6aa3690f3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\236ab4b8eb5b0a703162d61ac578b804\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\236ab4b8eb5b0a703162d61ac578b804\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MichaelAdeneye\.gradle\caches\transforms-3\236ab4b8eb5b0a703162d61ac578b804\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
